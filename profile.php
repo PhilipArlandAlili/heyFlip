@@ -19,6 +19,10 @@
             color: #ededed;
             height: 100vh;
             width: 100%;
+            background-image: url("img/box.gif");
+            background-blend-mode: luminosity;
+            background-position: center;
+            background-size: cover;
         }
 
         header {
@@ -84,7 +88,6 @@
             margin-left: 13%;
             padding-bottom: 5%;
             display: inline-block;
-            border: 1px solid white;
         }
 
         .sidebar {
@@ -97,9 +100,10 @@
             gap: 30px;
         }
 
-        .sidebar img{
-            height: 100%;
+        .sidebar img {
+            height: 280px;
             width: 70%;
+            border-radius: 20px;
         }
 
         .sidebar h1 {
@@ -107,6 +111,13 @@
             font-size: 45px;
             font-weight: 700;
         }
+
+        .about {
+            margin-top: 30px;
+            width: 70%;
+            border-bottom: 1px solid white;
+            border-radius: 30px 0;
+            }
     </style>
 </head>
 
@@ -122,7 +133,7 @@
             <a href="gallery.php">Gallery</a>
             <a href="contact.php">Contact Us</a>
             <a href="register.php">Register</a>
-            <a href="login.php">Login</a>
+            <a href="login.php">Log Out</a>
         </nav>
     </header>
 
@@ -139,9 +150,15 @@
 
         <aside id="side">
             <div class="sidebar">
-                <h1>About Me</h1>
+                <h1></h1>
                 <img src="img/profile.jpg" alt="">
                 <p><em>"If they can do it, make them do it ..."</em></p>
+                <div class="about">
+                    <h2>About Me</h2>
+                    <p><em>Address: </em>Libis, San Pedro PPC</p>
+                    <p><em>Contact Number: </em>09121640128</p>
+                    <p><em>Email: </em>202080139@psu.palawan.edu.ph</p>
+                </div>
             </div>
         </aside>
     </section>

@@ -18,6 +18,10 @@
             background-color: #0e1037fc;
             color: #ededed;
             height: 85vh;
+            background-blend-mode: luminosity;
+            background-image: url("img/lines.gif");
+            background-position: center;
+            background-size: cover;
         }
 
         #header {
@@ -316,7 +320,6 @@
 
             <div class="cont2">
                 <form action="register.php" method="post">
-
                     <div class="card1">
                         <div class="sect1">
                             <section id="sect1">
@@ -332,7 +335,6 @@
                                 <input type="password" name="password" id="hey" placeholder="Enter Password" required>
                             </section>
                         </div>
-
 
                         <div class="sect2">
                             <section id="sect3">

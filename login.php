@@ -11,6 +11,10 @@
             background-color: #0e1037fc;
             color: #ededed;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-blend-mode: luminosity;
+            background-image: url("img/lines.gif");
+            background-position: center;
+            background-size: cover;
         }
 
         article {
@@ -46,7 +50,6 @@
             background-color: #ededed;
             border-radius: 70px 133px 42px 211px;
             margin-right: 400px;
-            opacity: 80%;
         }
 
         .tops {
@@ -210,7 +213,6 @@
         </div>
         <div class="circles"></div>
         <div class="bgcont"></div>
-        <div class="bgcont2"></div>
     </article>
 </body>
 

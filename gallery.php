@@ -18,6 +18,10 @@
             background-color: #0e1037fc;
             color: #ededed;
             height: 100vh;
+            background-image: url("img/box.gif");
+            background-blend-mode: luminosity;
+            background-position: center;
+            background-size: cover;
         }
 
         #header {
@@ -97,7 +101,7 @@
             <a href="gallery.php">Gallery</a>
             <a href="contact.php">Contact Us</a>
             <a href="register.php">Register</a>
-            <a href="login.php">Login</a>
+            <a href="login.php">Log Out</a>
         </nav>
     </header>
 
